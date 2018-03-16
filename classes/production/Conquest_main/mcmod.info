@@ -1,0 +1,16 @@
+[
+{
+  "modid": "conquestmod",
+  "name": "Conquest Mod",
+  "description": "A settlers like mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Kelthalorn"],
+  "credits": "The Forge and FML guys, for making this API",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
