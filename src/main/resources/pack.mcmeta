@@ -1,6 +1,6 @@
 {
-    "pack": {
-        "description": "conquestmod resources",
-        "pack_format": 3
-    }
+  "pack": {
+    "pack_format": 1,
+    "description": "Resources used for MineColonies"
+  }
 }

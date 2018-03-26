@@ -3,7 +3,9 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="Conquest_api" target="1.8" />
+      <module name="Conquest_blockOut" target="1.8" />
       <module name="Conquest_main" target="1.8" />
+      <module name="Conquest_structures" target="1.8" />
       <module name="Conquest_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>

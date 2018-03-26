@@ -1,0 +1,30 @@
+<window xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" size="190 244" pause="false"
+        lightbox="false"
+        xsi:noNamespaceSchemaLocation="file:../../../../java/com/minecolonies/blockout/blockOut.xsd">
+    <switch id="pages" size="100% 100%">
+        <view id="pageActions" size="100% 100%">
+            <layout source="minecolonies:gui/windowworkerbuildingdefault.xml"/>
+        </view>
+
+        <view id="levelActions" size="100% 100%">
+            <layout source="minecolonies:gui/windowbase.xml"/>
+            <label size="100% 11" pos="0 10"
+                   label="$(com.minecolonies.coremod.gui.workerHuts.minerNodeList)" color="black"
+                   textalign="BOTTOM_MIDDLE"/>
+            <list id="levels" size="78% 85%" pos="30 30">
+                <box size="100% 30" linewidth="2">
+                    <label id="lvl" size="100 12" pos="5 2" textalign="MIDDLE_LEFT" color="black"/>
+                    <button id="changeToLevel" size="100 12" pos="5 2" align="TOP_RIGHT"
+                            label="$(com.minecolonies.coremod.gui.workerHuts.minerMineNode)"/>
+                    <label id="nONodes" size="50 12" pos="35 16" textalign="MIDDLE_LEFT" color="black"/>
+                </box>
+            </list>
+
+        </view>
+
+
+    </switch>
+    <buttonimage id="prevPage" align="TOP_LEFT" size="26 8" pos="12 15" source="minecolonies:textures/gui/builderhut/builder_sketch_arrow_left_c.png"/>
+    <buttonimage id="nextPage" align="TOP_RIGHT" size="26 8" pos="12 15" source="minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_c.png"/>
+
+</window>

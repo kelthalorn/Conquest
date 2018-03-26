@@ -1,0 +1,28 @@
+<window xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" size="190 244" pause="false"
+        lightbox="false"
+        xsi:noNamespaceSchemaLocation="file:../../../../java/com/minecolonies/blockout/blockOut.xsd">
+    <switch id="pages" size="100% 100%">
+
+        <view id="pageActions" size="100% 100%">
+            <layout source="minecolonies:gui/layoutbuildingdefault.xml"/>
+        </view>
+
+        <view id="resourceActions" size="100% 100%">
+            <layout source="minecolonies:gui/windowbase.xml"/>
+            <label size="100% 11" pos="0 10"
+                   label="$(com.minecolonies.coremod.gui.warehouse.upgrade)" color="black"
+                   textalign="BOTTOM_MIDDLE"/>
+            <box size="80% 30" linewidth="2" pos="20 30">
+                <itemicon id="resourceIcon" size="16 16" pos="1 1"/>
+                <label id="resourceName" size="100 12" pos="20 3" textalign="MIDDLE_LEFT" color="black"/>
+                <label id="resourceMissing" size="50 12" pos="2 18" textalign="MIDDLE_LEFT" color="black"/>
+                <label id="resourceAvailableNeeded" size="100% 12" pos="0 18" textalign="MIDDLE" color="black"/>
+                <button id="resourceAdd" size="16 16" label="↥" pos="110 7"/>
+                <label id="resourceId" size="1 1" pos="100 100"/>
+                <label id="resourceQuantity" size="1 1" pos="100 100"/>
+            </box>
+        </view>
+    </switch>
+    <buttonimage id="prevPage" align="TOP_LEFT" size="26 8" pos="12 15" source="minecolonies:textures/gui/builderhut/builder_sketch_arrow_left_c.png"/>
+    <buttonimage id="nextPage" align="TOP_RIGHT" size="26 8" pos="12 15" source="minecolonies:textures/gui/builderhut/builder_sketch_arrow_right_c.png"/>
+</window>

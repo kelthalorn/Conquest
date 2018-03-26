@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Conquest.iml" filepath="$PROJECT_DIR$/Conquest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Conquest_api.iml" filepath="$PROJECT_DIR$/.idea/modules/Conquest_api.iml" group="Conquest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Conquest_blockOut.iml" filepath="$PROJECT_DIR$/.idea/modules/Conquest_blockOut.iml" group="Conquest" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Conquest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Conquest_main.iml" group="Conquest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Conquest_structures.iml" filepath="$PROJECT_DIR$/.idea/modules/Conquest_structures.iml" group="Conquest" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Conquest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Conquest_test.iml" group="Conquest" />
     </modules>
   </component>
