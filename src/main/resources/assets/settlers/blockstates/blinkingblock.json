@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "settlers:blinkingblock",
+    "textures": {
+      "txt": "settlers:blocks/blinkingtexture"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "lit": {
+      "false": {},
+      "true": {
+        "textures": {
+          "txt": "settlers:blocks/blinkingtexture_on"
+        }
+      }
+    }
+  }
+}

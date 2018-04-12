@@ -1,0 +1,25 @@
+tile.settlers.firstblock.name=First Block
+tile.settlers.simpletexturedblock.name=Simple Textured Block
+tile.settlers.multitexturedblock.name=Multi Textured Block
+tile.settlers.statetexturedblock.name=State Textured Block
+tile.settlers.modelblock.name=Model Block
+tile.settlers.bakedmodelblock.name=Baked Model Block
+tile.settlers.datablock.name=Data Block
+tile.settlers.blinkingblock.name=Blinking Block
+tile.settlers.blinkingblock_lit.name=Blinking Block
+tile.settlers.pedestalblock.name=Pedestal Block
+tile.settlers.testcontainerblock.name=Test Container Block
+
+itemGroup.settlers = Settlers Mod
+
+item.settlers.firstitem.name=First Item
+item.settlers.simpletextureditem.name=Simple Textured Item
+item.settlers.multimodelitem.name=Multi Model Item
+
+message.settlers.counter=Counter:
+message.settlers.counter_par=Counter: %d
+
+entity.settlers.WeirdZombie.name=Weird Zombie
+
+key.categories.settlers=Settlers
+key.tutorial=Tutorial Key

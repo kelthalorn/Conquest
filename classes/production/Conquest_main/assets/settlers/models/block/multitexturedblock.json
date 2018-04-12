@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "settlers:blocks/facefront",
+    "down": "settlers:blocks/facedown",
+    "up": "settlers:blocks/faceup",
+    "east": "settlers:blocks/faceleft",
+    "west": "settlers:blocks/faceright",
+    "north": "settlers:blocks/facefront",
+    "south": "settlers:blocks/faceback"
+  }
+}

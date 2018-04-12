@@ -84,20 +84,6 @@ configFile.withReader {
 }
 
 dependencies {
-    deobfCompile "slimeknights.mantle:Mantle:1.12-${config.mantle_version}"
-    deobfCompile "slimeknights:TConstruct:1.12-${config.tinker_version}"
-
-    structuresCompile sourceSets.api.output
-    //blockOutCompile sourceSets.api.output
-
-    // compile against the JEI API but do not include it at runtime
-    deobfProvided "mezz.jei:jei_${config.minecraft_version}:${config.jei_version}:api"
-    // at runtime, use the full JEI jar
-    runtime "mezz.jei:jei_${config.minecraft_version}:${config.jei_version}"
-
-    testCompile sourceSets.structures.output
-    testCompile sourceSets.blockOut.output
-
     testCompile 'junit:junit:4.11'
     testCompile "org.mockito:mockito-core:1.+"
     testCompile group: 'org.powermock', name: 'powermock-module-junit4', version: '1.6.5'
@@ -109,7 +95,6 @@ dependencies {
     compile 'com.intellij:annotations:+@jar'
 }
 
-group = "com.minecolonies"
 config.buildnumber = System.getenv()['BUILD_NUMBER'] != null ? System.getenv()['BUILD_NUMBER'] : System.getenv()['TRAVIS_BUILD_NUMBER']
 version = "${config.minecraft_version}-${config.minecolonies_major}.${config.minecolonies_minor}.${config.buildnumber}"
 
@@ -128,33 +113,6 @@ minecraft {
     // simply re-run your setup task after changing the mappings to update your workspace.
     mappings = "snapshot_20171003"
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
-}
-
-dependencies {
-    compile 'mod.chiselsandbits:chiselsandbits:14.0.128'
-
-    compile 'com.intellij:annotations:+@jar'
-    // you may put jars on which you depend on in ./libs
-    // or you may define them like so..
-    //compile "some.group:artifact:version:classifier"
-    //compile "some.group:artifact:version"
-
-    // real examples
-    //compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
-    //compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
-
-    // the 'provided' configuration is for optional dependencies that exist at compile-time but might not at runtime.
-    //provided 'com.mod-buildcraft:buildcraft:6.0.8:dev'
-
-    // the deobf configurations:  'deobfCompile' and 'deobfProvided' are the same as the normal compile and provided,
-    // except that these dependencies get remapped to your current MCP mappings
-    //deobfCompile 'com.mod-buildcraft:buildcraft:6.0.8:dev'
-    //deobfProvided 'com.mod-buildcraft:buildcraft:6.0.8:dev'
-
-    // for more info...
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
-
 }
 
 processResources {

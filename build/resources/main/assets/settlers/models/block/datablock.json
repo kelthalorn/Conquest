@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "settlers:blocks/blocktexture",
+    "down": "settlers:blocks/blocktexture",
+    "up": "settlers:blocks/blocktexture",
+    "east": "settlers:blocks/blocktexture",
+    "west": "settlers:blocks/blocktexture",
+    "north": "settlers:blocks/datablocktexture",
+    "south": "settlers:blocks/blocktexture"
+  }
+}
